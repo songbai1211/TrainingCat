@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/Aspects" "${PODS_CONFIGURATION_BUILD_DIR}/CDZPicker" "${PODS_CONFIGURATION_BUILD_DIR}/JCChoosePhoneManager" "${PODS_CONFIGURATION_BUILD_DIR}/JXPatternLock" "${PODS_CONFIGURATION_BUILD_DIR}/LYEmptyView" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Aspects/Aspects.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CDZPicker/CDZPicker.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/JCChoosePhoneManager/JCChoosePhoneManager.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/JXPatternLock/JXPatternLock.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/LYEmptyView/LYEmptyView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh/MJRefresh.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "AVFoundation" -framework "Aspects" -framework "CDZPicker" -framework "CoreGraphics" -framework "Foundation" -framework "JCChoosePhoneManager" -framework "JXPatternLock" -framework "LYEmptyView" -framework "MBProgressHUD" -framework "MJRefresh" -framework "Masonry" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

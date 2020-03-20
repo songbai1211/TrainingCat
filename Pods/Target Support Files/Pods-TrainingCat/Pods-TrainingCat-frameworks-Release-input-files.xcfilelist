@@ -1,0 +1,10 @@
+${PODS_ROOT}/Target Support Files/Pods-TrainingCat/Pods-TrainingCat-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework
+${BUILT_PRODUCTS_DIR}/CDZPicker/CDZPicker.framework
+${BUILT_PRODUCTS_DIR}/JCChoosePhoneManager/JCChoosePhoneManager.framework
+${BUILT_PRODUCTS_DIR}/JXPatternLock/JXPatternLock.framework
+${BUILT_PRODUCTS_DIR}/LYEmptyView/LYEmptyView.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework

@@ -1,0 +1,6 @@
+framework module CDZPicker {
+  umbrella header "CDZPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

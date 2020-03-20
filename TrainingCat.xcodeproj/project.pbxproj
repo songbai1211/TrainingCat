@@ -1,0 +1,1083 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423305BC0D0B867DBC364E44 /* Pods_TrainingCat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938EB219AC137B58AC2B6BE2 /* Pods_TrainingCat.framework */; };
+		BEE1B1539DFA29B1586B5D04 /* Pods_TrainingCatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2B7D8BAF3AF13C8DCECC00 /* Pods_TrainingCatUITests.framework */; };
+		C9EAD9BFE4CC2C6E8841F349 /* Pods_TrainingCatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553C4DA499FA588B02919B55 /* Pods_TrainingCatTests.framework */; };
+		D5308B1E240E00CA00A3FA4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B1D240E00CA00A3FA4D /* AppDelegate.m */; };
+		D5308B24240E00CA00A3FA4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B23240E00CA00A3FA4D /* ViewController.m */; };
+		D5308B27240E00CA00A3FA4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5308B25240E00CA00A3FA4D /* Main.storyboard */; };
+		D5308B29240E00CB00A3FA4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5308B28240E00CB00A3FA4D /* Assets.xcassets */; };
+		D5308B2C240E00CB00A3FA4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5308B2A240E00CB00A3FA4D /* LaunchScreen.storyboard */; };
+		D5308B2F240E00CB00A3FA4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B2E240E00CB00A3FA4D /* main.m */; };
+		D5308B39240E00CC00A3FA4D /* TrainingCatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B38240E00CC00A3FA4D /* TrainingCatTests.m */; };
+		D5308B44240E00CC00A3FA4D /* TrainingCatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B43240E00CC00A3FA4D /* TrainingCatUITests.m */; };
+		D5308B69240E0C0000A3FA4D /* LLTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B65240E0C0000A3FA4D /* LLTabBarItem.m */; };
+		D5308B6A240E0C0000A3FA4D /* LLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B66240E0C0000A3FA4D /* LLTabBar.m */; };
+		D5308B6D240E0D4D00A3FA4D /* songbaizhangHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B6C240E0D4D00A3FA4D /* songbaizhangHomeViewController.m */; };
+		D5308B70240E0D6C00A3FA4D /* songbaizhangWorkCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B6F240E0D6C00A3FA4D /* songbaizhangWorkCatViewController.m */; };
+		D5308B7D240E43BB00A3FA4D /* songbaizhangHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B7C240E43BB00A3FA4D /* songbaizhangHomeTableViewCell.m */; };
+		D5308B80240E471B00A3FA4D /* songbaizhangMyCatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B7F240E471B00A3FA4D /* songbaizhangMyCatTableViewCell.m */; };
+		D5308B83240E474500A3FA4D /* songbaizhangSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B82240E474500A3FA4D /* songbaizhangSettingTableViewCell.m */; };
+		D5308B87240E47B200A3FA4D /* songbaizhangMyCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B86240E47B200A3FA4D /* songbaizhangMyCatViewController.m */; };
+		D5308B89240E47FD00A3FA4D /* songbaizhangMySettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B88240E47FD00A3FA4D /* songbaizhangMySettingViewController.m */; };
+		D5308B8C240E485900A3FA4D /* songbaizhangWrokCatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308B8B240E485900A3FA4D /* songbaizhangWrokCatTableViewCell.m */; };
+		D5308BFB240E5D3C00A3FA4D /* songbaizhangworkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308BFA240E5D3C00A3FA4D /* songbaizhangworkDetailViewController.m */; };
+		D5308BFE240E609D00A3FA4D /* songbaizhangNAVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308BFD240E609D00A3FA4D /* songbaizhangNAVViewController.m */; };
+		D5308C01240E62E400A3FA4D /* songbaizhangDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308C00240E62E400A3FA4D /* songbaizhangDetailTableViewCell.m */; };
+		D5308C07240E6D4B00A3FA4D /* songbaizhangAddMyCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308C06240E6D4B00A3FA4D /* songbaizhangAddMyCatViewController.m */; };
+		D5308C0A240E6DCB00A3FA4D /* songbaizhangAddMyCatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308C09240E6DCB00A3FA4D /* songbaizhangAddMyCatTableViewCell.m */; };
+		D5308C0D240E707000A3FA4D /* songbaizhangDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308C0C240E707000A3FA4D /* songbaizhangDataManager.m */; };
+		D5308C10240E74F500A3FA4D /* songbaizhangAddCatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308C0F240E74F500A3FA4D /* songbaizhangAddCatModel.m */; };
+		D5308E65240FA0E100A3FA4D /* songbaizhangHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308E64240FA0E100A3FA4D /* songbaizhangHomeModel.m */; };
+		D5308E68240FAEA000A3FA4D /* songbaizhangAboutAPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308E67240FAEA000A3FA4D /* songbaizhangAboutAPPViewController.m */; };
+		D5308E6B240FB1A600A3FA4D /* songbaizhangLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308E6A240FB1A600A3FA4D /* songbaizhangLoginViewController.m */; };
+		D5308E6E240FB2A500A3FA4D /* songbaizhangLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308E6D240FB2A500A3FA4D /* songbaizhangLoginView.m */; };
+		D5308E9C2410987F00A3FA4D /* songbaizhangPrivateAlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308E9B2410987F00A3FA4D /* songbaizhangPrivateAlterView.m */; };
+		D5308EB02410CCCA00A3FA4D /* songbaizhangAddDoCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5308EAF2410CCCA00A3FA4D /* songbaizhangAddDoCatViewController.m */; };
+		D541B0392415DD990085A27B /* songbaizhangHomeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D541B0382415DD990085A27B /* songbaizhangHomeDetailViewController.m */; };
+		D541B0512415E4230085A27B /* 美国短毛猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B03C2415E4230085A27B /* 美国短毛猫.jpg */; };
+		D541B0522415E4230085A27B /* 英国短毛猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B03D2415E4230085A27B /* 英国短毛猫.jpg */; };
+		D541B0532415E4230085A27B /* 缅甸猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B03E2415E4230085A27B /* 缅甸猫.jpg */; };
+		D541B0542415E4230085A27B /* 暹罗猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B03F2415E4230085A27B /* 暹罗猫.jpg */; };
+		D541B0552415E4230085A27B /* 缅因猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B0402415E4230085A27B /* 缅因猫.jpg */; };
+		D541B0562415E4230085A27B /* 喜马拉雅猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B0412415E4230085A27B /* 喜马拉雅猫.jpg */; };
+		D541B0572415E4230085A27B /* 西伯利亚猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B0422415E4230085A27B /* 西伯利亚猫.jpg */; };
+		D541B0582415E4230085A27B /* 异国猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B0432415E4230085A27B /* 异国猫.jpg */; };
+		D541B0592415E4230085A27B /* 柯拉特猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B0442415E4230085A27B /* 柯拉特猫.jpg */; };
+		D541B05A2415E4230085A27B /* 中国狸花猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B0452415E4230085A27B /* 中国狸花猫.jpg */; };
+		D541B05B2415E4230085A27B /* 东奇尼猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B0462415E4230085A27B /* 东奇尼猫.jpg */; };
+		D541B05C2415E4230085A27B /* 金吉拉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B0472415E4230085A27B /* 金吉拉.jpg */; };
+		D541B05D2415E4230085A27B /* 柯尼斯卷毛猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B0482415E4230085A27B /* 柯尼斯卷毛猫.jpg */; };
+		D541B05E2415E4230085A27B /* 卡尔特猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B0492415E4230085A27B /* 卡尔特猫.jpg */; };
+		D541B05F2415E4230085A27B /* 美国硬毛猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B04A2415E4230085A27B /* 美国硬毛猫.jpg */; };
+		D541B0602415E4230085A27B /* 埃及猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B04B2415E4230085A27B /* 埃及猫.jpg */; };
+		D541B0612415E4230085A27B /* 布偶猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B04C2415E4230085A27B /* 布偶猫.jpg */; };
+		D541B0622415E4230085A27B /* 伯曼猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B04D2415E4230085A27B /* 伯曼猫.jpg */; };
+		D541B0632415E4230085A27B /* 美国卷耳猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B04E2415E4230085A27B /* 美国卷耳猫.jpg */; };
+		D541B0642415E4230085A27B /* 雪血猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B04F2415E4230085A27B /* 雪血猫.jpg */; };
+		D541B0652415E4230085A27B /* 苏格兰折耳猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D541B0502415E4230085A27B /* 苏格兰折耳猫.jpg */; };
+		D541B06824160DF70085A27B /* songbaizhangMYCatDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D541B06724160DF70085A27B /* songbaizhangMYCatDetailViewController.m */; };
+		D541B0B6241881F10085A27B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B0B5241881F10085A27B /* RegisterViewController.swift */; };
+		D541B0B8241885500085A27B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D541B0B7241885500085A27B /* UIColor.swift */; };
+		D59E51C424189648003AC909 /* SelectPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E51C324189648003AC909 /* SelectPhotoManager.m */; };
+		D59E51C62418AA5B003AC909 /* songbaizhangChangeNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E51C52418AA5B003AC909 /* songbaizhangChangeNameViewController.swift */; };
+		D59E5210241A1DE8003AC909 /* PrivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E520F241A1DE8003AC909 /* PrivateViewController.swift */; };
+		D59E5212241A222C003AC909 /* peopleRureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59E5211241A222C003AC909 /* peopleRureViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5308B35240E00CC00A3FA4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5308B11240E00CA00A3FA4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5308B18240E00CA00A3FA4D;
+			remoteInfo = TrainingCat;
+		};
+		D5308B40240E00CC00A3FA4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5308B11240E00CA00A3FA4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5308B18240E00CA00A3FA4D;
+			remoteInfo = TrainingCat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		255E68D3C1E33935C6DB317D /* Pods-TrainingCatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingCatTests.release.xcconfig"; path = "Target Support Files/Pods-TrainingCatTests/Pods-TrainingCatTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E2B7D8BAF3AF13C8DCECC00 /* Pods_TrainingCatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainingCatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431E6A62C2B4ED8B69D10DC8 /* Pods-TrainingCat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingCat.release.xcconfig"; path = "Target Support Files/Pods-TrainingCat/Pods-TrainingCat.release.xcconfig"; sourceTree = "<group>"; };
+		553C4DA499FA588B02919B55 /* Pods_TrainingCatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainingCatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6126D0304E5BA7E3BCFA8C6D /* Pods-TrainingCatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingCatUITests.debug.xcconfig"; path = "Target Support Files/Pods-TrainingCatUITests/Pods-TrainingCatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		938EB219AC137B58AC2B6BE2 /* Pods_TrainingCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainingCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A974DF4B1DF42006AB8D1FC9 /* Pods-TrainingCatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingCatUITests.release.xcconfig"; path = "Target Support Files/Pods-TrainingCatUITests/Pods-TrainingCatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B44045CAD7BF01D6BA3A7C94 /* Pods-TrainingCat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingCat.debug.xcconfig"; path = "Target Support Files/Pods-TrainingCat/Pods-TrainingCat.debug.xcconfig"; sourceTree = "<group>"; };
+		C3A1ADB7C9900FE694F83F73 /* Pods-TrainingCatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingCatTests.debug.xcconfig"; path = "Target Support Files/Pods-TrainingCatTests/Pods-TrainingCatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5308B19240E00CA00A3FA4D /* 猫咪学堂.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "猫咪学堂.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5308B1C240E00CA00A3FA4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5308B1D240E00CA00A3FA4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5308B22240E00CA00A3FA4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5308B23240E00CA00A3FA4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5308B26240E00CA00A3FA4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5308B28240E00CB00A3FA4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5308B2B240E00CB00A3FA4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5308B2D240E00CB00A3FA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5308B2E240E00CB00A3FA4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5308B34240E00CC00A3FA4D /* TrainingCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5308B38240E00CC00A3FA4D /* TrainingCatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainingCatTests.m; sourceTree = "<group>"; };
+		D5308B3A240E00CC00A3FA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5308B3F240E00CC00A3FA4D /* TrainingCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainingCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5308B43240E00CC00A3FA4D /* TrainingCatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainingCatUITests.m; sourceTree = "<group>"; };
+		D5308B45240E00CC00A3FA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5308B63240E0C0000A3FA4D /* LLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTabBar.h; sourceTree = "<group>"; };
+		D5308B64240E0C0000A3FA4D /* LLTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTabBarItem.h; sourceTree = "<group>"; };
+		D5308B65240E0C0000A3FA4D /* LLTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTabBarItem.m; sourceTree = "<group>"; };
+		D5308B66240E0C0000A3FA4D /* LLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTabBar.m; sourceTree = "<group>"; };
+		D5308B6B240E0D4D00A3FA4D /* songbaizhangHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangHomeViewController.h; sourceTree = "<group>"; };
+		D5308B6C240E0D4D00A3FA4D /* songbaizhangHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangHomeViewController.m; sourceTree = "<group>"; };
+		D5308B6E240E0D6C00A3FA4D /* songbaizhangWorkCatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangWorkCatViewController.h; sourceTree = "<group>"; };
+		D5308B6F240E0D6C00A3FA4D /* songbaizhangWorkCatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangWorkCatViewController.m; sourceTree = "<group>"; };
+		D5308B71240E0D7900A3FA4D /* songbaizhangMySettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangMySettingViewController.h; sourceTree = "<group>"; };
+		D5308B74240E0D8200A3FA4D /* songbaizhangMyCatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangMyCatViewController.h; sourceTree = "<group>"; };
+		D5308B7A240E268500A3FA4D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D5308B7B240E43BB00A3FA4D /* songbaizhangHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangHomeTableViewCell.h; sourceTree = "<group>"; };
+		D5308B7C240E43BB00A3FA4D /* songbaizhangHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangHomeTableViewCell.m; sourceTree = "<group>"; };
+		D5308B7E240E471B00A3FA4D /* songbaizhangMyCatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangMyCatTableViewCell.h; sourceTree = "<group>"; };
+		D5308B7F240E471B00A3FA4D /* songbaizhangMyCatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangMyCatTableViewCell.m; sourceTree = "<group>"; };
+		D5308B81240E474500A3FA4D /* songbaizhangSettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangSettingTableViewCell.h; sourceTree = "<group>"; };
+		D5308B82240E474500A3FA4D /* songbaizhangSettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangSettingTableViewCell.m; sourceTree = "<group>"; };
+		D5308B86240E47B200A3FA4D /* songbaizhangMyCatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = songbaizhangMyCatViewController.m; sourceTree = "<group>"; };
+		D5308B88240E47FD00A3FA4D /* songbaizhangMySettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = songbaizhangMySettingViewController.m; sourceTree = "<group>"; };
+		D5308B8A240E485900A3FA4D /* songbaizhangWrokCatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangWrokCatTableViewCell.h; sourceTree = "<group>"; };
+		D5308B8B240E485900A3FA4D /* songbaizhangWrokCatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangWrokCatTableViewCell.m; sourceTree = "<group>"; };
+		D5308BF9240E5D3C00A3FA4D /* songbaizhangworkDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangworkDetailViewController.h; sourceTree = "<group>"; };
+		D5308BFA240E5D3C00A3FA4D /* songbaizhangworkDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangworkDetailViewController.m; sourceTree = "<group>"; };
+		D5308BFC240E609D00A3FA4D /* songbaizhangNAVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangNAVViewController.h; sourceTree = "<group>"; };
+		D5308BFD240E609D00A3FA4D /* songbaizhangNAVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangNAVViewController.m; sourceTree = "<group>"; };
+		D5308BFF240E62E400A3FA4D /* songbaizhangDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangDetailTableViewCell.h; sourceTree = "<group>"; };
+		D5308C00240E62E400A3FA4D /* songbaizhangDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangDetailTableViewCell.m; sourceTree = "<group>"; };
+		D5308C05240E6D4B00A3FA4D /* songbaizhangAddMyCatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangAddMyCatViewController.h; sourceTree = "<group>"; };
+		D5308C06240E6D4B00A3FA4D /* songbaizhangAddMyCatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangAddMyCatViewController.m; sourceTree = "<group>"; };
+		D5308C08240E6DCB00A3FA4D /* songbaizhangAddMyCatTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangAddMyCatTableViewCell.h; sourceTree = "<group>"; };
+		D5308C09240E6DCB00A3FA4D /* songbaizhangAddMyCatTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangAddMyCatTableViewCell.m; sourceTree = "<group>"; };
+		D5308C0B240E707000A3FA4D /* songbaizhangDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangDataManager.h; sourceTree = "<group>"; };
+		D5308C0C240E707000A3FA4D /* songbaizhangDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangDataManager.m; sourceTree = "<group>"; };
+		D5308C0E240E74F500A3FA4D /* songbaizhangAddCatModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangAddCatModel.h; sourceTree = "<group>"; };
+		D5308C0F240E74F500A3FA4D /* songbaizhangAddCatModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangAddCatModel.m; sourceTree = "<group>"; };
+		D5308E63240FA0E100A3FA4D /* songbaizhangHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangHomeModel.h; sourceTree = "<group>"; };
+		D5308E64240FA0E100A3FA4D /* songbaizhangHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangHomeModel.m; sourceTree = "<group>"; };
+		D5308E66240FAEA000A3FA4D /* songbaizhangAboutAPPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangAboutAPPViewController.h; sourceTree = "<group>"; };
+		D5308E67240FAEA000A3FA4D /* songbaizhangAboutAPPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangAboutAPPViewController.m; sourceTree = "<group>"; };
+		D5308E69240FB1A600A3FA4D /* songbaizhangLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangLoginViewController.h; sourceTree = "<group>"; };
+		D5308E6A240FB1A600A3FA4D /* songbaizhangLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangLoginViewController.m; sourceTree = "<group>"; };
+		D5308E6C240FB2A500A3FA4D /* songbaizhangLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangLoginView.h; sourceTree = "<group>"; };
+		D5308E6D240FB2A500A3FA4D /* songbaizhangLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangLoginView.m; sourceTree = "<group>"; };
+		D5308E9A2410987F00A3FA4D /* songbaizhangPrivateAlterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangPrivateAlterView.h; sourceTree = "<group>"; };
+		D5308E9B2410987F00A3FA4D /* songbaizhangPrivateAlterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangPrivateAlterView.m; sourceTree = "<group>"; };
+		D5308EAE2410CCCA00A3FA4D /* songbaizhangAddDoCatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangAddDoCatViewController.h; sourceTree = "<group>"; };
+		D5308EAF2410CCCA00A3FA4D /* songbaizhangAddDoCatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangAddDoCatViewController.m; sourceTree = "<group>"; };
+		D541B0372415DD990085A27B /* songbaizhangHomeDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangHomeDetailViewController.h; sourceTree = "<group>"; };
+		D541B0382415DD990085A27B /* songbaizhangHomeDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangHomeDetailViewController.m; sourceTree = "<group>"; };
+		D541B03C2415E4230085A27B /* 美国短毛猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美国短毛猫.jpg"; sourceTree = "<group>"; };
+		D541B03D2415E4230085A27B /* 英国短毛猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "英国短毛猫.jpg"; sourceTree = "<group>"; };
+		D541B03E2415E4230085A27B /* 缅甸猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "缅甸猫.jpg"; sourceTree = "<group>"; };
+		D541B03F2415E4230085A27B /* 暹罗猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "暹罗猫.jpg"; sourceTree = "<group>"; };
+		D541B0402415E4230085A27B /* 缅因猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "缅因猫.jpg"; sourceTree = "<group>"; };
+		D541B0412415E4230085A27B /* 喜马拉雅猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "喜马拉雅猫.jpg"; sourceTree = "<group>"; };
+		D541B0422415E4230085A27B /* 西伯利亚猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "西伯利亚猫.jpg"; sourceTree = "<group>"; };
+		D541B0432415E4230085A27B /* 异国猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "异国猫.jpg"; sourceTree = "<group>"; };
+		D541B0442415E4230085A27B /* 柯拉特猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "柯拉特猫.jpg"; sourceTree = "<group>"; };
+		D541B0452415E4230085A27B /* 中国狸花猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "中国狸花猫.jpg"; sourceTree = "<group>"; };
+		D541B0462415E4230085A27B /* 东奇尼猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "东奇尼猫.jpg"; sourceTree = "<group>"; };
+		D541B0472415E4230085A27B /* 金吉拉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金吉拉.jpg"; sourceTree = "<group>"; };
+		D541B0482415E4230085A27B /* 柯尼斯卷毛猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "柯尼斯卷毛猫.jpg"; sourceTree = "<group>"; };
+		D541B0492415E4230085A27B /* 卡尔特猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卡尔特猫.jpg"; sourceTree = "<group>"; };
+		D541B04A2415E4230085A27B /* 美国硬毛猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美国硬毛猫.jpg"; sourceTree = "<group>"; };
+		D541B04B2415E4230085A27B /* 埃及猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "埃及猫.jpg"; sourceTree = "<group>"; };
+		D541B04C2415E4230085A27B /* 布偶猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "布偶猫.jpg"; sourceTree = "<group>"; };
+		D541B04D2415E4230085A27B /* 伯曼猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "伯曼猫.jpg"; sourceTree = "<group>"; };
+		D541B04E2415E4230085A27B /* 美国卷耳猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "美国卷耳猫.jpg"; sourceTree = "<group>"; };
+		D541B04F2415E4230085A27B /* 雪血猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雪血猫.jpg"; sourceTree = "<group>"; };
+		D541B0502415E4230085A27B /* 苏格兰折耳猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "苏格兰折耳猫.jpg"; sourceTree = "<group>"; };
+		D541B06624160DF70085A27B /* songbaizhangMYCatDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = songbaizhangMYCatDetailViewController.h; sourceTree = "<group>"; };
+		D541B06724160DF70085A27B /* songbaizhangMYCatDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = songbaizhangMYCatDetailViewController.m; sourceTree = "<group>"; };
+		D541B0B4241881F00085A27B /* TrainingCat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrainingCat-Bridging-Header.h"; sourceTree = "<group>"; };
+		D541B0B5241881F10085A27B /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D541B0B7241885500085A27B /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D59E51C224189648003AC909 /* SelectPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPhotoManager.h; sourceTree = "<group>"; };
+		D59E51C324189648003AC909 /* SelectPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPhotoManager.m; sourceTree = "<group>"; };
+		D59E51C52418AA5B003AC909 /* songbaizhangChangeNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songbaizhangChangeNameViewController.swift; sourceTree = "<group>"; };
+		D59E520F241A1DE8003AC909 /* PrivateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateViewController.swift; sourceTree = "<group>"; };
+		D59E5211241A222C003AC909 /* peopleRureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peopleRureViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5308B16240E00CA00A3FA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423305BC0D0B867DBC364E44 /* Pods_TrainingCat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5308B31240E00CC00A3FA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EAD9BFE4CC2C6E8841F349 /* Pods_TrainingCatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5308B3C240E00CC00A3FA4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE1B1539DFA29B1586B5D04 /* Pods_TrainingCatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6058A83586CBDF9FDD90C53A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				938EB219AC137B58AC2B6BE2 /* Pods_TrainingCat.framework */,
+				553C4DA499FA588B02919B55 /* Pods_TrainingCatTests.framework */,
+				2E2B7D8BAF3AF13C8DCECC00 /* Pods_TrainingCatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5308B10240E00CA00A3FA4D = {
+			isa = PBXGroup;
+			children = (
+				D5308B1B240E00CA00A3FA4D /* TrainingCat */,
+				D5308B37240E00CC00A3FA4D /* TrainingCatTests */,
+				D5308B42240E00CC00A3FA4D /* TrainingCatUITests */,
+				D5308B1A240E00CA00A3FA4D /* Products */,
+				DE4153AF2B26236D116B9088 /* Pods */,
+				6058A83586CBDF9FDD90C53A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5308B1A240E00CA00A3FA4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5308B19240E00CA00A3FA4D /* 猫咪学堂.app */,
+				D5308B34240E00CC00A3FA4D /* TrainingCatTests.xctest */,
+				D5308B3F240E00CC00A3FA4D /* TrainingCatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5308B1B240E00CA00A3FA4D /* TrainingCat */ = {
+			isa = PBXGroup;
+			children = (
+				D541B03A2415E40C0085A27B /* source */,
+				D5308B61240E0C0000A3FA4D /* songbaizhangLibs */,
+				D5308B68240E0C0000A3FA4D /* songbaizhangMyCat */,
+				D5308B60240E0C0000A3FA4D /* songbaizhangSetting */,
+				D5308B67240E0C0000A3FA4D /* songbaizhangWrokCat */,
+				D5308B5F240E0BE600A3FA4D /* songbaizhangHome */,
+				D5308B1C240E00CA00A3FA4D /* AppDelegate.h */,
+				D5308B1D240E00CA00A3FA4D /* AppDelegate.m */,
+				D5308B22240E00CA00A3FA4D /* ViewController.h */,
+				D5308B23240E00CA00A3FA4D /* ViewController.m */,
+				D5308B25240E00CA00A3FA4D /* Main.storyboard */,
+				D5308B28240E00CB00A3FA4D /* Assets.xcassets */,
+				D5308B2A240E00CB00A3FA4D /* LaunchScreen.storyboard */,
+				D5308B2D240E00CB00A3FA4D /* Info.plist */,
+				D5308B2E240E00CB00A3FA4D /* main.m */,
+				D5308B7A240E268500A3FA4D /* PrefixHeader.pch */,
+			);
+			path = TrainingCat;
+			sourceTree = "<group>";
+		};
+		D5308B37240E00CC00A3FA4D /* TrainingCatTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5308B38240E00CC00A3FA4D /* TrainingCatTests.m */,
+				D5308B3A240E00CC00A3FA4D /* Info.plist */,
+			);
+			path = TrainingCatTests;
+			sourceTree = "<group>";
+		};
+		D5308B42240E00CC00A3FA4D /* TrainingCatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5308B43240E00CC00A3FA4D /* TrainingCatUITests.m */,
+				D5308B45240E00CC00A3FA4D /* Info.plist */,
+			);
+			path = TrainingCatUITests;
+			sourceTree = "<group>";
+		};
+		D5308B5F240E0BE600A3FA4D /* songbaizhangHome */ = {
+			isa = PBXGroup;
+			children = (
+				D5308B6B240E0D4D00A3FA4D /* songbaizhangHomeViewController.h */,
+				D5308B6C240E0D4D00A3FA4D /* songbaizhangHomeViewController.m */,
+				D5308B7B240E43BB00A3FA4D /* songbaizhangHomeTableViewCell.h */,
+				D5308B7C240E43BB00A3FA4D /* songbaizhangHomeTableViewCell.m */,
+				D5308E63240FA0E100A3FA4D /* songbaizhangHomeModel.h */,
+				D5308E64240FA0E100A3FA4D /* songbaizhangHomeModel.m */,
+				D5308EAE2410CCCA00A3FA4D /* songbaizhangAddDoCatViewController.h */,
+				D5308EAF2410CCCA00A3FA4D /* songbaizhangAddDoCatViewController.m */,
+				D541B0372415DD990085A27B /* songbaizhangHomeDetailViewController.h */,
+				D541B0382415DD990085A27B /* songbaizhangHomeDetailViewController.m */,
+			);
+			path = songbaizhangHome;
+			sourceTree = "<group>";
+		};
+		D5308B60240E0C0000A3FA4D /* songbaizhangSetting */ = {
+			isa = PBXGroup;
+			children = (
+				D5308B71240E0D7900A3FA4D /* songbaizhangMySettingViewController.h */,
+				D5308B81240E474500A3FA4D /* songbaizhangSettingTableViewCell.h */,
+				D5308B88240E47FD00A3FA4D /* songbaizhangMySettingViewController.m */,
+				D5308B82240E474500A3FA4D /* songbaizhangSettingTableViewCell.m */,
+				D5308E66240FAEA000A3FA4D /* songbaizhangAboutAPPViewController.h */,
+				D5308E67240FAEA000A3FA4D /* songbaizhangAboutAPPViewController.m */,
+				D5308E69240FB1A600A3FA4D /* songbaizhangLoginViewController.h */,
+				D5308E6A240FB1A600A3FA4D /* songbaizhangLoginViewController.m */,
+				D5308E6C240FB2A500A3FA4D /* songbaizhangLoginView.h */,
+				D5308E6D240FB2A500A3FA4D /* songbaizhangLoginView.m */,
+				D541B0B5241881F10085A27B /* RegisterViewController.swift */,
+				D541B0B4241881F00085A27B /* TrainingCat-Bridging-Header.h */,
+				D541B0B7241885500085A27B /* UIColor.swift */,
+				D59E51C52418AA5B003AC909 /* songbaizhangChangeNameViewController.swift */,
+				D59E520F241A1DE8003AC909 /* PrivateViewController.swift */,
+				D59E5211241A222C003AC909 /* peopleRureViewController.swift */,
+			);
+			path = songbaizhangSetting;
+			sourceTree = "<group>";
+		};
+		D5308B61240E0C0000A3FA4D /* songbaizhangLibs */ = {
+			isa = PBXGroup;
+			children = (
+				D59E51C124189648003AC909 /* SelectPhotoManager */,
+				D5308C0B240E707000A3FA4D /* songbaizhangDataManager.h */,
+				D5308C0C240E707000A3FA4D /* songbaizhangDataManager.m */,
+				D5308B62240E0C0000A3FA4D /* LLTabBar */,
+				D5308BFC240E609D00A3FA4D /* songbaizhangNAVViewController.h */,
+				D5308BFD240E609D00A3FA4D /* songbaizhangNAVViewController.m */,
+				D5308E9A2410987F00A3FA4D /* songbaizhangPrivateAlterView.h */,
+				D5308E9B2410987F00A3FA4D /* songbaizhangPrivateAlterView.m */,
+			);
+			path = songbaizhangLibs;
+			sourceTree = "<group>";
+		};
+		D5308B62240E0C0000A3FA4D /* LLTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D5308B63240E0C0000A3FA4D /* LLTabBar.h */,
+				D5308B64240E0C0000A3FA4D /* LLTabBarItem.h */,
+				D5308B65240E0C0000A3FA4D /* LLTabBarItem.m */,
+				D5308B66240E0C0000A3FA4D /* LLTabBar.m */,
+			);
+			path = LLTabBar;
+			sourceTree = "<group>";
+		};
+		D5308B67240E0C0000A3FA4D /* songbaizhangWrokCat */ = {
+			isa = PBXGroup;
+			children = (
+				D5308B6E240E0D6C00A3FA4D /* songbaizhangWorkCatViewController.h */,
+				D5308B6F240E0D6C00A3FA4D /* songbaizhangWorkCatViewController.m */,
+				D5308B8A240E485900A3FA4D /* songbaizhangWrokCatTableViewCell.h */,
+				D5308B8B240E485900A3FA4D /* songbaizhangWrokCatTableViewCell.m */,
+				D5308BF9240E5D3C00A3FA4D /* songbaizhangworkDetailViewController.h */,
+				D5308BFA240E5D3C00A3FA4D /* songbaizhangworkDetailViewController.m */,
+				D5308BFF240E62E400A3FA4D /* songbaizhangDetailTableViewCell.h */,
+				D5308C00240E62E400A3FA4D /* songbaizhangDetailTableViewCell.m */,
+			);
+			path = songbaizhangWrokCat;
+			sourceTree = "<group>";
+		};
+		D5308B68240E0C0000A3FA4D /* songbaizhangMyCat */ = {
+			isa = PBXGroup;
+			children = (
+				D5308B74240E0D8200A3FA4D /* songbaizhangMyCatViewController.h */,
+				D5308B86240E47B200A3FA4D /* songbaizhangMyCatViewController.m */,
+				D5308B7E240E471B00A3FA4D /* songbaizhangMyCatTableViewCell.h */,
+				D5308B7F240E471B00A3FA4D /* songbaizhangMyCatTableViewCell.m */,
+				D5308C05240E6D4B00A3FA4D /* songbaizhangAddMyCatViewController.h */,
+				D5308C06240E6D4B00A3FA4D /* songbaizhangAddMyCatViewController.m */,
+				D5308C08240E6DCB00A3FA4D /* songbaizhangAddMyCatTableViewCell.h */,
+				D5308C09240E6DCB00A3FA4D /* songbaizhangAddMyCatTableViewCell.m */,
+				D5308C0E240E74F500A3FA4D /* songbaizhangAddCatModel.h */,
+				D5308C0F240E74F500A3FA4D /* songbaizhangAddCatModel.m */,
+				D541B06624160DF70085A27B /* songbaizhangMYCatDetailViewController.h */,
+				D541B06724160DF70085A27B /* songbaizhangMYCatDetailViewController.m */,
+			);
+			path = songbaizhangMyCat;
+			sourceTree = "<group>";
+		};
+		D541B03A2415E40C0085A27B /* source */ = {
+			isa = PBXGroup;
+			children = (
+				D541B03B2415E4230085A27B /* cats */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		D541B03B2415E4230085A27B /* cats */ = {
+			isa = PBXGroup;
+			children = (
+				D541B03C2415E4230085A27B /* 美国短毛猫.jpg */,
+				D541B03D2415E4230085A27B /* 英国短毛猫.jpg */,
+				D541B03E2415E4230085A27B /* 缅甸猫.jpg */,
+				D541B03F2415E4230085A27B /* 暹罗猫.jpg */,
+				D541B0402415E4230085A27B /* 缅因猫.jpg */,
+				D541B0412415E4230085A27B /* 喜马拉雅猫.jpg */,
+				D541B0422415E4230085A27B /* 西伯利亚猫.jpg */,
+				D541B0432415E4230085A27B /* 异国猫.jpg */,
+				D541B0442415E4230085A27B /* 柯拉特猫.jpg */,
+				D541B0452415E4230085A27B /* 中国狸花猫.jpg */,
+				D541B0462415E4230085A27B /* 东奇尼猫.jpg */,
+				D541B0472415E4230085A27B /* 金吉拉.jpg */,
+				D541B0482415E4230085A27B /* 柯尼斯卷毛猫.jpg */,
+				D541B0492415E4230085A27B /* 卡尔特猫.jpg */,
+				D541B04A2415E4230085A27B /* 美国硬毛猫.jpg */,
+				D541B04B2415E4230085A27B /* 埃及猫.jpg */,
+				D541B04C2415E4230085A27B /* 布偶猫.jpg */,
+				D541B04D2415E4230085A27B /* 伯曼猫.jpg */,
+				D541B04E2415E4230085A27B /* 美国卷耳猫.jpg */,
+				D541B04F2415E4230085A27B /* 雪血猫.jpg */,
+				D541B0502415E4230085A27B /* 苏格兰折耳猫.jpg */,
+			);
+			path = cats;
+			sourceTree = "<group>";
+		};
+		D59E51C124189648003AC909 /* SelectPhotoManager */ = {
+			isa = PBXGroup;
+			children = (
+				D59E51C224189648003AC909 /* SelectPhotoManager.h */,
+				D59E51C324189648003AC909 /* SelectPhotoManager.m */,
+			);
+			path = SelectPhotoManager;
+			sourceTree = "<group>";
+		};
+		DE4153AF2B26236D116B9088 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B44045CAD7BF01D6BA3A7C94 /* Pods-TrainingCat.debug.xcconfig */,
+				431E6A62C2B4ED8B69D10DC8 /* Pods-TrainingCat.release.xcconfig */,
+				C3A1ADB7C9900FE694F83F73 /* Pods-TrainingCatTests.debug.xcconfig */,
+				255E68D3C1E33935C6DB317D /* Pods-TrainingCatTests.release.xcconfig */,
+				6126D0304E5BA7E3BCFA8C6D /* Pods-TrainingCatUITests.debug.xcconfig */,
+				A974DF4B1DF42006AB8D1FC9 /* Pods-TrainingCatUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5308B18240E00CA00A3FA4D /* TrainingCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5308B48240E00CC00A3FA4D /* Build configuration list for PBXNativeTarget "TrainingCat" */;
+			buildPhases = (
+				FC93CA2F553B54525B7C2820 /* [CP] Check Pods Manifest.lock */,
+				D5308B15240E00CA00A3FA4D /* Sources */,
+				D5308B16240E00CA00A3FA4D /* Frameworks */,
+				D5308B17240E00CA00A3FA4D /* Resources */,
+				F7744242D4772D37B001E6E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrainingCat;
+			productName = TrainingCat;
+			productReference = D5308B19240E00CA00A3FA4D /* 猫咪学堂.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5308B33240E00CC00A3FA4D /* TrainingCatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5308B4B240E00CC00A3FA4D /* Build configuration list for PBXNativeTarget "TrainingCatTests" */;
+			buildPhases = (
+				551CC31C09FA0751C0865FEC /* [CP] Check Pods Manifest.lock */,
+				D5308B30240E00CC00A3FA4D /* Sources */,
+				D5308B31240E00CC00A3FA4D /* Frameworks */,
+				D5308B32240E00CC00A3FA4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5308B36240E00CC00A3FA4D /* PBXTargetDependency */,
+			);
+			name = TrainingCatTests;
+			productName = TrainingCatTests;
+			productReference = D5308B34240E00CC00A3FA4D /* TrainingCatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5308B3E240E00CC00A3FA4D /* TrainingCatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5308B4E240E00CC00A3FA4D /* Build configuration list for PBXNativeTarget "TrainingCatUITests" */;
+			buildPhases = (
+				09504D1C24D1FF92FC297E16 /* [CP] Check Pods Manifest.lock */,
+				D5308B3B240E00CC00A3FA4D /* Sources */,
+				D5308B3C240E00CC00A3FA4D /* Frameworks */,
+				D5308B3D240E00CC00A3FA4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5308B41240E00CC00A3FA4D /* PBXTargetDependency */,
+			);
+			name = TrainingCatUITests;
+			productName = TrainingCatUITests;
+			productReference = D5308B3F240E00CC00A3FA4D /* TrainingCatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5308B11240E00CA00A3FA4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = songbaizhang;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = crespo;
+				TargetAttributes = {
+					D5308B18240E00CA00A3FA4D = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					D5308B33240E00CC00A3FA4D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D5308B18240E00CA00A3FA4D;
+					};
+					D5308B3E240E00CC00A3FA4D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D5308B18240E00CA00A3FA4D;
+					};
+				};
+			};
+			buildConfigurationList = D5308B14240E00CA00A3FA4D /* Build configuration list for PBXProject "TrainingCat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5308B10240E00CA00A3FA4D;
+			productRefGroup = D5308B1A240E00CA00A3FA4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5308B18240E00CA00A3FA4D /* TrainingCat */,
+				D5308B33240E00CC00A3FA4D /* TrainingCatTests */,
+				D5308B3E240E00CC00A3FA4D /* TrainingCatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5308B17240E00CA00A3FA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D541B0632415E4230085A27B /* 美国卷耳猫.jpg in Resources */,
+				D541B05E2415E4230085A27B /* 卡尔特猫.jpg in Resources */,
+				D541B05F2415E4230085A27B /* 美国硬毛猫.jpg in Resources */,
+				D541B05D2415E4230085A27B /* 柯尼斯卷毛猫.jpg in Resources */,
+				D541B0642415E4230085A27B /* 雪血猫.jpg in Resources */,
+				D541B0532415E4230085A27B /* 缅甸猫.jpg in Resources */,
+				D541B05A2415E4230085A27B /* 中国狸花猫.jpg in Resources */,
+				D541B0582415E4230085A27B /* 异国猫.jpg in Resources */,
+				D541B0562415E4230085A27B /* 喜马拉雅猫.jpg in Resources */,
+				D541B0522415E4230085A27B /* 英国短毛猫.jpg in Resources */,
+				D541B0652415E4230085A27B /* 苏格兰折耳猫.jpg in Resources */,
+				D5308B2C240E00CB00A3FA4D /* LaunchScreen.storyboard in Resources */,
+				D541B05C2415E4230085A27B /* 金吉拉.jpg in Resources */,
+				D5308B29240E00CB00A3FA4D /* Assets.xcassets in Resources */,
+				D541B0512415E4230085A27B /* 美国短毛猫.jpg in Resources */,
+				D541B0592415E4230085A27B /* 柯拉特猫.jpg in Resources */,
+				D541B05B2415E4230085A27B /* 东奇尼猫.jpg in Resources */,
+				D541B0612415E4230085A27B /* 布偶猫.jpg in Resources */,
+				D541B0542415E4230085A27B /* 暹罗猫.jpg in Resources */,
+				D541B0552415E4230085A27B /* 缅因猫.jpg in Resources */,
+				D541B0572415E4230085A27B /* 西伯利亚猫.jpg in Resources */,
+				D541B0622415E4230085A27B /* 伯曼猫.jpg in Resources */,
+				D541B0602415E4230085A27B /* 埃及猫.jpg in Resources */,
+				D5308B27240E00CA00A3FA4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5308B32240E00CC00A3FA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5308B3D240E00CC00A3FA4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09504D1C24D1FF92FC297E16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrainingCatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		551CC31C09FA0751C0865FEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrainingCatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7744242D4772D37B001E6E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrainingCat/Pods-TrainingCat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrainingCat/Pods-TrainingCat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrainingCat/Pods-TrainingCat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC93CA2F553B54525B7C2820 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrainingCat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5308B15240E00CA00A3FA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5308B80240E471B00A3FA4D /* songbaizhangMyCatTableViewCell.m in Sources */,
+				D5308B24240E00CA00A3FA4D /* ViewController.m in Sources */,
+				D5308E6E240FB2A500A3FA4D /* songbaizhangLoginView.m in Sources */,
+				D5308BFB240E5D3C00A3FA4D /* songbaizhangworkDetailViewController.m in Sources */,
+				D5308B8C240E485900A3FA4D /* songbaizhangWrokCatTableViewCell.m in Sources */,
+				D59E5210241A1DE8003AC909 /* PrivateViewController.swift in Sources */,
+				D5308C0A240E6DCB00A3FA4D /* songbaizhangAddMyCatTableViewCell.m in Sources */,
+				D59E5212241A222C003AC909 /* peopleRureViewController.swift in Sources */,
+				D59E51C62418AA5B003AC909 /* songbaizhangChangeNameViewController.swift in Sources */,
+				D5308B1E240E00CA00A3FA4D /* AppDelegate.m in Sources */,
+				D5308E68240FAEA000A3FA4D /* songbaizhangAboutAPPViewController.m in Sources */,
+				D5308E9C2410987F00A3FA4D /* songbaizhangPrivateAlterView.m in Sources */,
+				D541B06824160DF70085A27B /* songbaizhangMYCatDetailViewController.m in Sources */,
+				D5308B2F240E00CB00A3FA4D /* main.m in Sources */,
+				D5308C07240E6D4B00A3FA4D /* songbaizhangAddMyCatViewController.m in Sources */,
+				D5308B87240E47B200A3FA4D /* songbaizhangMyCatViewController.m in Sources */,
+				D5308C10240E74F500A3FA4D /* songbaizhangAddCatModel.m in Sources */,
+				D5308B70240E0D6C00A3FA4D /* songbaizhangWorkCatViewController.m in Sources */,
+				D5308B83240E474500A3FA4D /* songbaizhangSettingTableViewCell.m in Sources */,
+				D541B0B8241885500085A27B /* UIColor.swift in Sources */,
+				D5308B7D240E43BB00A3FA4D /* songbaizhangHomeTableViewCell.m in Sources */,
+				D5308E65240FA0E100A3FA4D /* songbaizhangHomeModel.m in Sources */,
+				D5308B69240E0C0000A3FA4D /* LLTabBarItem.m in Sources */,
+				D5308C01240E62E400A3FA4D /* songbaizhangDetailTableViewCell.m in Sources */,
+				D5308B6D240E0D4D00A3FA4D /* songbaizhangHomeViewController.m in Sources */,
+				D5308C0D240E707000A3FA4D /* songbaizhangDataManager.m in Sources */,
+				D5308B89240E47FD00A3FA4D /* songbaizhangMySettingViewController.m in Sources */,
+				D5308BFE240E609D00A3FA4D /* songbaizhangNAVViewController.m in Sources */,
+				D5308B6A240E0C0000A3FA4D /* LLTabBar.m in Sources */,
+				D541B0392415DD990085A27B /* songbaizhangHomeDetailViewController.m in Sources */,
+				D5308EB02410CCCA00A3FA4D /* songbaizhangAddDoCatViewController.m in Sources */,
+				D5308E6B240FB1A600A3FA4D /* songbaizhangLoginViewController.m in Sources */,
+				D541B0B6241881F10085A27B /* RegisterViewController.swift in Sources */,
+				D59E51C424189648003AC909 /* SelectPhotoManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5308B30240E00CC00A3FA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5308B39240E00CC00A3FA4D /* TrainingCatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5308B3B240E00CC00A3FA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5308B44240E00CC00A3FA4D /* TrainingCatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5308B36240E00CC00A3FA4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5308B18240E00CA00A3FA4D /* TrainingCat */;
+			targetProxy = D5308B35240E00CC00A3FA4D /* PBXContainerItemProxy */;
+		};
+		D5308B41240E00CC00A3FA4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5308B18240E00CA00A3FA4D /* TrainingCat */;
+			targetProxy = D5308B40240E00CC00A3FA4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5308B25240E00CA00A3FA4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5308B26240E00CA00A3FA4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5308B2A240E00CB00A3FA4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5308B2B240E00CB00A3FA4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5308B46240E00CC00A3FA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5308B47240E00CC00A3FA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5308B49240E00CC00A3FA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44045CAD7BF01D6BA3A7C94 /* Pods-TrainingCat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z5RK22BJYL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TrainingCat/PrefixHeader.pch";
+				INFOPLIST_FILE = TrainingCat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = crespo.TrainingCat;
+				PRODUCT_NAME = "猫咪学堂";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TrainingCat/songbaizhangSetting/TrainingCat-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "TrainingCat-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D5308B4A240E00CC00A3FA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431E6A62C2B4ED8B69D10DC8 /* Pods-TrainingCat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z5RK22BJYL;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TrainingCat/PrefixHeader.pch";
+				INFOPLIST_FILE = TrainingCat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = crespo.TrainingCat;
+				PRODUCT_NAME = "猫咪学堂";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TrainingCat/songbaizhangSetting/TrainingCat-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "TrainingCat-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D5308B4C240E00CC00A3FA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A1ADB7C9900FE694F83F73 /* Pods-TrainingCatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrainingCatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = crespo.TrainingCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainingCat.app/TrainingCat";
+			};
+			name = Debug;
+		};
+		D5308B4D240E00CC00A3FA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255E68D3C1E33935C6DB317D /* Pods-TrainingCatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrainingCatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = crespo.TrainingCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainingCat.app/TrainingCat";
+			};
+			name = Release;
+		};
+		D5308B4F240E00CC00A3FA4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6126D0304E5BA7E3BCFA8C6D /* Pods-TrainingCatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrainingCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = crespo.TrainingCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrainingCat;
+			};
+			name = Debug;
+		};
+		D5308B50240E00CC00A3FA4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A974DF4B1DF42006AB8D1FC9 /* Pods-TrainingCatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrainingCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = crespo.TrainingCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrainingCat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5308B14240E00CA00A3FA4D /* Build configuration list for PBXProject "TrainingCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5308B46240E00CC00A3FA4D /* Debug */,
+				D5308B47240E00CC00A3FA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5308B48240E00CC00A3FA4D /* Build configuration list for PBXNativeTarget "TrainingCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5308B49240E00CC00A3FA4D /* Debug */,
+				D5308B4A240E00CC00A3FA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5308B4B240E00CC00A3FA4D /* Build configuration list for PBXNativeTarget "TrainingCatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5308B4C240E00CC00A3FA4D /* Debug */,
+				D5308B4D240E00CC00A3FA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5308B4E240E00CC00A3FA4D /* Build configuration list for PBXNativeTarget "TrainingCatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5308B4F240E00CC00A3FA4D /* Debug */,
+				D5308B50240E00CC00A3FA4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5308B11240E00CA00A3FA4D /* Project object */;
+}

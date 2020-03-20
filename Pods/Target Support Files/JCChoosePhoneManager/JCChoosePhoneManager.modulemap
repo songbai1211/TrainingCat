@@ -1,0 +1,6 @@
+framework module JCChoosePhoneManager {
+  umbrella header "JCChoosePhoneManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
